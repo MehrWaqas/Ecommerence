@@ -1,0 +1,131 @@
+.pos{
+	position: absolute;
+    right: 10px;
+        z-index: 10000;
+}
+.cen{
+
+	text-align: center;
+}
+.st{
+	font-family: 'Pacifico', cursive;
+}
+.mg{
+	margin:auto;
+}
+
+.navbar-nav .dropdown-menu {
+    position: inherit;
+    float: right;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+.btn-success {
+    color: #fff;
+    background-color: #dee5ec;
+    border-color: #ebeef1;
+}
+.fil{
+	    display: inline-flex;
+	   padding-right: 10px;
+    padding-top: 8px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #0c5498;
+    border-color: #0c5498;
+    f: ;
+}
+body{
+	background-color:#9ea6ab30;
+	font-family: 'Raleway', sans-serif;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #e4e0e0;
+}
+.bg-dark {
+    background-color: #0c5498!important;
+}
+.bg-light {
+    background-color: white !important;;
+    border-radius: 5px;
+}
+p.card-text {
+    font-size: 20px;
+    /* font-weight: 400; */
+}
+.card-st{
+    margin-bottom: 15px;
+    border: 1px solid #f1ecec;
+    box-shadow: 0px 0px 5px -2px;
+}
+
+.mg-50{
+	margin-bottom: 100px;
+}
+footer {
+  text-align: center;
+  padding: 1px;
+  background-color: #0c5498;
+  color: #ffff;
+}
+.btn-success:hover {
+    color: #fff;
+    background-color: #85b3de;
+    border-color: #85b3de;
+}
+.mg-10{
+	margin-top: 10px;
+	padding-top: 14px;
+}
+.fil-right{
+	padding-right: 20px;
+    padding-top: 9px;
+    padding-left: 6px;
+}
+.form-inline {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+     flex-flow: row; 
+    -ms-flex-align: center;
+    align-items: center;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: -80px;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 8rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+@media(max-width: 767px){
+
+.card-st {
+    margin-bottom: 15px;
+    border: 1px solid #f1ecec;
+    box-shadow: 0px 0px 5px -2px;
+}
+
+}
+@media(min-width: 768px) and (max-width: 1199px){
+	.card-st {
+    width: 215px;
+}
+}
